@@ -1,5 +1,8 @@
 # Claude Scientific Skills
 
+> **140 production-ready scientific skills for Claude** — biology, chemistry, medicine, ML, materials science, and astronomy in one toolkit
+
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.md)
 [![Skills](https://img.shields.io/badge/Skills-140-brightgreen.svg)](#whats-included)
 
@@ -742,3 +745,32 @@ See [LICENSE.md](LICENSE.md) for full terms.
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=K-Dense-AI/claude-scientific-skills&type=date&legend=top-left)](https://www.star-history.com/#K-Dense-AI/claude-scientific-skills&type=date&legend=top-left)
+
+---
+
+## ☠️ STARTUPS / BUSINESSES
+
+Deploying in a research or commercial context? High-value applications:
+
+| Domain | Use Case | Impact |
+|--------|----------|--------|
+| **Pharma / Biotech** | ADMET screening, lead optimization, drug-target docking | Cut early discovery cycles from months → days |
+| **CRO / Lab Services** | Automated LC-MS/MS processing, peptide ID, protein quant | 10× throughput without new hires |
+| **Clinical AI startups** | EHR analysis, clinical prediction models, variant interpretation | FDA-ready audit trails out of the box |
+| **AgriTech** | Metabolic modeling, metabolomics workflows, phenotype scoring | Field-to-lab pipeline automation |
+| **Materials startups** | Crystal structure analysis, phase diagrams, DFT post-processing | Compress R&D iteration loops |
+| **MedTech SaaS** | DICOM processing, WSI analysis, radiology report generation | HIPAA-compliant image pipelines |
+| **AI Research Labs** | Hyperparameter tuning, model explainability, Bayesian workflows | Reproducible experiment tracking |
+| **Astro / Space** | Coordinate transforms, cosmological calcs, telescope pipeline | Publication-ready figures in one prompt |
+
+> ⚠️ These skills run locally in Claude Code. Sensitive research data never leaves your environment.
+
+---
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=hmzainjamil/claude-scientific-skills&type=Date)](https://star-history.com/#hmzainjamil/claude-scientific-skills&Date)
+
+---
+
+Built by [HMZ](https://github.com/hmzainjamil)
