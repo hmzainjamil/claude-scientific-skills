@@ -18,6 +18,42 @@ A comprehensive collection of **140 ready-to-use scientific skills** for Claude,
 
 ---
 
+## CONCEPTS
+
+| Concept | Description |
+|---|---|
+| **Scientific Skills (140)** | Claude skill files covering biology, chemistry, medicine, ML, materials science, and astronomy |
+| **Bioinformatics Module** | Sequence analysis, scRNA-seq, gene regulatory networks, variant annotation, phylogenetic analysis |
+| **Cheminformatics Module** | Molecular property prediction, virtual screening, ADMET analysis, docking, lead optimization |
+| **Clinical ML Module** | EHR analysis, physiological signal processing, medical imaging, clinical prediction models |
+| **Multi-omics Module** | Multi-modal data integration, pathway analysis, network biology, systems-level insights |
+| **Lab Automation Module** | Liquid handling protocols, LIMS integration, workflow automation for physical lab equipment |
+| **K-Dense Web** | Hosted platform — 200+ skills, cloud GPUs, publication-ready outputs, zero local setup |
+| **Skill Invocation** | Load skill via `claude skills install` then call by domain: `claude "use skill: scanpy — analyze PBMC dataset"` |
+
+## 🔥 Hot Commands
+
+```bash
+# Install all scientific skills
+claude skills install ./skills/
+
+# Run single-cell RNA-seq QC pipeline
+claude "use skill: scanpy — run QC and clustering on pbmc3k.h5ad"
+
+# Molecular docking workflow
+claude "use skill: diffdock — dock ligand.sdf against receptor.pdb, return top 5 poses"
+
+# Generate a publication-quality figure
+claude "use skill: matplotlib — plot UMAP with cell-type annotations, Nature style"
+
+# Literature search + synthesis
+claude "use skill: semantic-scholar — find papers on CRISPR base editing 2022-2025"
+```
+
+## ■ tip
+> Each skill YAML includes required Python packages — run `pip install -r skills/<domain>/requirements.txt` once per domain. No monolithic install needed. Source: [K-Dense skills repo](https://k-dense.ai)
+
+
 ## K-Dense Web - The Full Experience
 
 Want 10x the power with zero setup? **[K-Dense Web](https://k-dense.ai)** is the complete AI co-scientist platform—everything in this repo, plus:
@@ -774,3 +810,4 @@ Deploying in a research or commercial context? High-value applications:
 ---
 
 Built by [HMZ](https://github.com/hmzainjamil)
+
