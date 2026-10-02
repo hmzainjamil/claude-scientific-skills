@@ -20,3 +20,5 @@ The repository search index is unavailable in this environment, so this is not a
 
 For each skill, include its source path, purpose, prerequisites, data handling, supported environment, and limitations. Add only commands that match files in the repository. Report tests as unverified until actually run.
 
+
+See [CONTENT_REVIEW.md](CONTENT_REVIEW.md) for the claims removed and paths checked.
