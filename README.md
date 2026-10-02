@@ -22,3 +22,5 @@ For each skill, include its source path, purpose, prerequisites, data handling, 
 
 
 See [CONTENT_REVIEW.md](CONTENT_REVIEW.md) for the claims removed and paths checked.
+
+See [SECURITY.md](SECURITY.md) for research-data handling cautions.
